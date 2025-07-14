@@ -1,0 +1,410 @@
+<html>
+
+    <head>
+
+        <link rel="icon" href="Logo.png">
+
+        <title>Tea</title>
+
+    </head>
+
+    <style>
+
+        body{
+            padding:0;
+            margin:0;
+        }
+        #header{
+            position: fixed;
+            background-color: rgba(0, 0, 0, 0.847);
+            width: 100%;
+            height: 90px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+        }
+
+        a{
+            background: linear-gradient(rgb(255, 89, 0),yellow);
+            color:transparent;
+            background-clip: text;
+            font-size :21px;
+            font-family: Georgia;
+            text-decoration:none;  
+        }
+
+        a:hover{
+            font-size: 23px;
+            border: 1px solid white;
+            color:rgb(255, 255, 255)
+        }
+
+        #pages{
+            display: flex;
+            align-items: center;
+            column-gap: 20px;
+            padding:0px 30px;
+
+        }
+
+        #container{
+            background-image:url("bg1.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            display :flex;
+            width:100%;
+            height:590px;
+            align-items: center;
+            justify-content: right;
+            font-family:Times New Roman;
+        }
+
+        #intro{
+            align-items: center;
+            flex-direction: column;
+            display:flex;
+           
+        }
+
+        #first{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+              
+        }
+
+        #second{
+            width: 100%;
+            height: 800px;
+            background-image: url("bg2.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            row-gap: 30px;
+
+    
+        }
+
+        #second-1{
+            background-color:rgba(255, 255, 255, 0.763);
+            border-radius:15px;
+            padding: 10px;
+        }
+
+        #second-2{
+           
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            justify-content: space-evenly;
+            
+        }
+        
+        #second-2-child1{
+            width:25%;
+            border-radius: 15px;
+            background-color: rgba(255, 255, 255, 0.632);
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+        }
+
+        #second-2-child2{
+            width:25%;
+            border-radius: 15px;
+            background-color: rgba(255, 255, 255, 0.632);
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        #second-2-child3{
+            width:25%;
+            border-radius: 15px;
+            background-color: rgba(255, 255, 255, 0.632);
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #third{ width: 100%;
+            height: 600px;
+            background-image: url("bg3.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #fourth{
+            
+            background-image:url("bg4.png");
+            height:600px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            background-position:center;
+            background-position: center;
+            
+
+        }
+         
+        #video{
+        float: right;
+        }
+
+        
+        #footer p{
+             background: linear-gradient(rgb(255, 89, 0),yellow);
+            color:transparent;
+            background-clip: text;
+            font-size :21px;
+        }
+
+          #footer{
+            color: white;
+            width: 100%;
+            height: 200px;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+
+    </style>
+
+    <body>
+
+        <header>
+
+            <div id="header">
+
+                <div>
+
+                <img src="icon.png" width="200">
+
+                </div>
+
+                  <div id="pages" style="padding-top:48px">
+
+                    <a href="index.html">HOME</a>
+                    <a href="pages.html">PAGES</a>
+                    <a href="#">PORTFOLIO</a>
+                    <a href="#">SHOP</a>
+                    <a href="#">CONTACT</a>
+                    <a href="#"><img src="cart.png"></a>
+                    <a href="#"><img src="search.png"></a>
+                    <a href="#"><img src="menu.png"></a>
+
+                  </div>
+
+            </div>
+
+        </header>
+
+        <div id="container">
+
+            <div style="display: flex; align-items: center; flex-direction:column">
+
+              <h1 style="color: white; font-size: 65px; letter-spacing: 5px;padding:0px 20px">Sip & Smile</h1>
+              <img src="smile.png" width="25%" height="30%">
+
+            </div>
+
+        </div>
+        
+        
+        <div id="intro">
+            <h1 style="font-size: 50px;font-family:cursive">Our Fresh Brews</h1>
+            <img src="design.png" height="38px" width="20%">
+            <p style="font-size: 24px;">We offer a soulful collection of teas—crafted to match your mood, your moment, and your smile</p>
+        </div>
+
+       
+        <div id="first" >
+
+            <div id="tea-types" style="display: flex;flex-direction:column; align-items: center; justify-content: center;">
+                <img src="teaglass.png" width="130px" height="160px">
+                <h2 style="font-family:cursive ;">TYPES OF TEA</h2>
+                <p>We bring tea for every soul.
+                    <ul>
+                       <li>Morning Mist</li>
+                       <li>Evening Glow</li>
+                       <li>Night Relax</li>
+                    </ul>
+
+                </p>
+            </div>
+     
+           
+            <div id="teapowder" style="flex-direction:column;display: flex;align-items: center; justify-content: center;">
+                 <img src="teapowder.png" width="120px" height="160px">
+                 <h2 style="font-family:cursive">FLAVOUR VARIETIES</h2>
+                 <p>We provide soulful tea powders.
+                    <ul>
+                    <li>Indian spicy</li>
+                    <li>Herbal</li>
+                    <li>chocolate</li>
+                    </ul>
+                 </p>
+            </div>
+            
+
+            
+            <div id="samosa" style="flex-direction:column;display: flex; align-items: center; justify-content: center;">
+                <img src="samosa.png" width="130px" height="160px">
+                <h2 style="font-family:cursive ;">TEA & SAMOSA</h2>
+                <p>We serve tea-time treats with_samosas,biscuits.
+                    <ul>
+                       <li>Steam & Spice Twists</li>
+                       <li>Sweet Treats</li>
+                       <li>Dry Mixes</li>
+                    </ul>
+                </p>
+
+            </div>
+
+
+            
+            <div id="tea" style="flex-direction:column;display: flex;align-items: center; justify-content: center;">
+                <img src="tea.png" width="80px" height="160px">
+                <h2 style="font-family:cursive">READY TO GO</h2>
+                <p> We deliver T from our stall to your door.
+                    <ul>
+                        <li>Combo Pack</li>
+                        <li>Single Item</li>
+                        <li>Discount pack</li>
+                    </ul>
+                </p>
+            </div>
+
+        </div>
+
+<br>
+        <div id="second">
+
+            <div id="second-1" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+               
+              
+                 <h1>The Teacup Tribune</h1>
+                 <img src="design.png" width="35%" height="32px">
+                <p>Our preparation techniques are rooted in nature — every step a quiet homage to tradition, purity.</p>
+
+            </div>
+
+
+            <div id="second-2">
+
+                <div id="second-2-child1" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                    <img src="pre1.png" width="300">
+                    <h1>Prep Techniques</h1>
+                    <p style="width: 60%; text-align:center;">Boil water with tea powder, milk, sugar, 
+                        and spices like ginger or cardamom until rich and aromatic.Strain and serve hot.
+                    </p>
+                    
+
+                </div>
+
+                <div id="second-2-child2" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                    <img src="pre2.png" width="300">
+                    <h1>Prep Techniques</h1>
+                    <p style="width: 60%; text-align: center">Boil herbs like tulsi, mint, or ginger in 
+                        fresh water for 5–10 minutes to release their essence &their colors deepen.Strain and sip warm.
+                    </p>
+                     
+
+                    
+                </div>
+
+                 <div id="second-2-child3" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                    <img src="pre3.png" width="300">
+                    <h1>Prep Techniques</h1>
+                    <p style="width:60%; text-align:center">Boil tea powder with cocoa,milk,sugar,and a hint of 
+                        cinnamon or cardamom until frothy and rich.Strain and sip warm.
+                    </p>
+                    
+                    
+                </div>
+            </div>
+
+        </div>
+
+
+        <div id="third">
+            <img src="tealogo.png" width="40%" height="65%px">
+        </div>
+
+         
+        <div  id="fourth" >
+            
+           <video id="video" controls  loop   height="50%" style=" display: flex;padding:0px 20px; flex-direction: column;
+            float:right;">
+
+            <source src="video.mp4">
+
+           </video>
+
+        </div>
+        
+
+        <footer id="footer" >    
+           
+                <p>&copy;All Rights Reserved</p>
+        
+
+            <div  id="pages"  >
+
+                    <a href="#">HOME</a>
+                    <a href="#">PAGES</a>
+                    <a href="#">SHOP</a>
+                    <a href="#">CONTACT</a>
+
+            </div>
+
+               <div>
+                    <a href="https://r.search.yahoo.com/_ylt=Awr1SnJAGXVoUQIA59a7HAx.;
+                    _ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1753714241/RO=10/RU=https%3a%2f%2fwww.instagram.com%2f/RK=2/RS=rBXlZbVpHPl3jn.50Cv9GQiAqF4-" style="cursor:pointer" >
+                    <img src="in.png" >
+                    </a>
+
+                    <a href="https://r.search.yahoo.com/_ylt=AwrPrm9ZGXVoOQIAX0a7HAx.;
+                    _ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1753714266/RO=10/RU=https%3a%2f%2fwww.facebook.com%2f/RK=2/RS=Pb6uJtWh1tTq93ckaWp100ITI_c-" style="cursor:pointer" >
+                    <img src="fb.png" >
+                    </a>
+
+                    <a href="https://r.search.yahoo.com/_ylt=Awr1TSmgF3VoEwIA94C7HAx.;
+                    _ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1753713825/RO=10/RU=https%3a%2f%2ftwitter.com%2f%3flang%3den-in/RK=2/RS=HPdV2RTEAPRrqpt9mNtw3QZdj2Y-" style="cursor:pointer" >
+                    <img src="x.png" >
+                    </a>
+
+                </div>
+               
+                
+
+            
+
+        </footer>
+
+
+        
+
+
+    </body>
+
+</html>
